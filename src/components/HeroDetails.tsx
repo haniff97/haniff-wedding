@@ -21,7 +21,7 @@ export default function HeroDetails() {
         style={{ width: "42%", aspectRatio: "603 / 954" }}
       >
         <Image
-          src="/images/curtain_ul.png"
+          src="/images/curtain_ul.webp"
           alt=""
           fill
           priority
@@ -36,7 +36,7 @@ export default function HeroDetails() {
         style={{ width: "41%", aspectRatio: "554 / 931" }}
       >
         <Image
-          src="/images/curtain_ur.png"
+          src="/images/curtain_ur.webp"
           alt=""
           fill
           priority
@@ -119,7 +119,7 @@ export default function HeroDetails() {
         style={{ width: "24%", aspectRatio: "231 / 464" }}
       >
         <Image
-          src="/images/curtain_ll.png"
+          src="/images/curtain_ll.webp"
           alt=""
           fill
           priority
@@ -131,7 +131,7 @@ export default function HeroDetails() {
         style={{ width: "24%", aspectRatio: "231 / 464" }}
       >
         <Image
-          src="/images/curtain_lr.png"
+          src="/images/curtain_lr.webp"
           alt=""
           fill
           priority

@@ -39,7 +39,7 @@ export default function EventDetails() {
         className="relative w-52 h-52 sm:w-56 sm:h-56 mb-2 drop-shadow-sm"
       >
         <Image
-          src="/images/house.png"
+          src="/images/house.webp"
           alt="House Illustration"
           fill
           className="object-contain"

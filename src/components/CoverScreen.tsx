@@ -47,7 +47,7 @@ export default function CoverScreen({
                 style={{ aspectRatio: "1366 / 459" }}
               >
                 <Image
-                  src="/images/top_curtain.png"
+                  src="/images/top_curtain.webp"
                   alt="Top Curtain"
                   fill
                   priority
@@ -74,7 +74,7 @@ export default function CoverScreen({
                 style={{ width: "30%", aspectRatio: "603 / 954" }}
               >
                 <Image
-                  src="/images/curtain_ul.png"
+                  src="/images/curtain_ul.webp"
                   alt=""
                   fill
                   priority
@@ -88,7 +88,7 @@ export default function CoverScreen({
                 style={{ width: "17%", aspectRatio: "231 / 464" }}
               >
                 <Image
-                  src="/images/curtain_ll.png"
+                  src="/images/curtain_ll.webp"
                   alt=""
                   fill
                   priority
@@ -115,7 +115,7 @@ export default function CoverScreen({
                 style={{ width: "29%", aspectRatio: "554 / 931" }}
               >
                 <Image
-                  src="/images/curtain_ur.png"
+                  src="/images/curtain_ur.webp"
                   alt=""
                   fill
                   priority
@@ -129,7 +129,7 @@ export default function CoverScreen({
                 style={{ width: "17%", aspectRatio: "231 / 464" }}
               >
                 <Image
-                  src="/images/curtain_lr.png"
+                  src="/images/curtain_lr.webp"
                   alt=""
                   fill
                   priority
@@ -175,7 +175,7 @@ export default function CoverScreen({
                 style={{ width: "48%", maxWidth: "205px", aspectRatio: "395 / 339" }}
               >
                 <Image
-                  src="/images/cover_couple.png"
+                  src="/images/cover_couple.webp"
                   alt="Haniff & Hanini"
                   fill
                   priority

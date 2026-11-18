@@ -14,7 +14,7 @@ export default function ClosingSection() {
         style={{ width: "40%", aspectRatio: "603 / 954" }}
       >
         <Image
-          src="/images/curtain_ul.png"
+          src="/images/curtain_ul.webp"
           alt=""
           fill
           priority
@@ -26,7 +26,7 @@ export default function ClosingSection() {
         style={{ width: "39%", aspectRatio: "554 / 931" }}
       >
         <Image
-          src="/images/curtain_ur.png"
+          src="/images/curtain_ur.webp"
           alt=""
           fill
           priority
@@ -44,7 +44,7 @@ export default function ClosingSection() {
         style={{ width: "46%", maxWidth: "195px", aspectRatio: "548 / 621" }}
       >
         <Image
-          src="/images/top_chandelier.png"
+          src="/images/top_chandelier.webp"
           alt="Golden Chandelier"
           fill
           priority
@@ -68,7 +68,7 @@ export default function ClosingSection() {
           className="absolute -top-3 -left-3 w-8 h-8 pointer-events-none z-20"
         >
           <Image
-            src="/images/doodle_star.png"
+            src="/images/doodle_star.webp"
             alt=""
             fill
             className="object-contain"
@@ -82,7 +82,7 @@ export default function ClosingSection() {
           className="relative w-full h-full drop-shadow-md cursor-pointer"
         >
           <Image
-            src="/images/closing_window.png"
+            src="/images/closing_window.webp"
             alt="Haniff and Hanini Window"
             fill
             className="object-contain"
@@ -137,7 +137,7 @@ export default function ClosingSection() {
             className="relative w-8 h-8 pointer-events-none"
           >
             <Image
-              src="/images/doodle_flower.png"
+              src="/images/doodle_flower.webp"
               alt=""
               fill
               className="object-contain"
@@ -158,7 +158,7 @@ export default function ClosingSection() {
             className="relative w-7 h-7 pointer-events-none"
           >
             <Image
-              src="/images/doodle_sparkle.png"
+              src="/images/doodle_sparkle.webp"
               alt=""
               fill
               className="object-contain"
@@ -182,7 +182,7 @@ export default function ClosingSection() {
         style={{ width: "24%", aspectRatio: "231 / 464" }}
       >
         <Image
-          src="/images/curtain_ll.png"
+          src="/images/curtain_ll.webp"
           alt=""
           fill
           priority
@@ -194,7 +194,7 @@ export default function ClosingSection() {
         style={{ width: "24%", aspectRatio: "231 / 464" }}
       >
         <Image
-          src="/images/curtain_lr.png"
+          src="/images/curtain_lr.webp"
           alt=""
           fill
           priority

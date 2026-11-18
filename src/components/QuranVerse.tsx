@@ -20,10 +20,9 @@ export default function QuranVerse() {
         className="relative w-16 sm:w-20 aspect-[208/382] mb-6 drop-shadow-sm"
       >
         <Image
-          src="/images/candle.png"
+          src="/images/candle.webp"
           alt="Candle"
           fill
-          priority
           className="object-contain"
         />
       </motion.div>

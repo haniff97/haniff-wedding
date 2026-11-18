@@ -44,7 +44,7 @@ export default function CoupleSection() {
           className="relative w-64 aspect-[903/1129] mb-4 drop-shadow-md cursor-pointer"
         >
           <Image
-            src="/images/groom.png"
+            src="/images/groom.webp"
             alt="Groom Haniff"
             fill
             className="object-contain"
@@ -87,7 +87,7 @@ export default function CoupleSection() {
           className="relative w-64 aspect-[903/1129] mb-4 drop-shadow-md cursor-pointer"
         >
           <Image
-            src="/images/bride.png"
+            src="/images/bride.webp"
             alt="Bride Hanini"
             fill
             className="object-contain"

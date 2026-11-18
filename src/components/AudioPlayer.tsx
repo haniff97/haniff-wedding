@@ -25,7 +25,7 @@ export default function AudioPlayer({
         >
           <div className="relative w-44 h-44 mb-3 transition-transform duration-300 group-hover:scale-105">
             <Image
-              src="/images/vinyl_player.png"
+              src="/images/vinyl_player.webp"
               alt="Vinyl Record Player"
               fill
               className={`object-contain transition-all ${
