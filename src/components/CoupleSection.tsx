@@ -16,7 +16,7 @@ export default function CoupleSection() {
         className="font-handwriting text-xl text-[#801B3C] leading-snug px-4 mb-10"
       >
         Dengan memohon rahmat &amp; ridho Allah SWT, kami mengundang
-        bapak/ibu/saudara/i untuk hadir pada pernikahan:
+        bapa/ibu/saudara/i untuk hadir pada pernikahan:
       </motion.p>
 
       {/* Groom & Bride Title */}

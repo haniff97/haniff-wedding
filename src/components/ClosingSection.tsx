@@ -111,7 +111,7 @@ export default function ClosingSection() {
         className="relative z-10 max-w-xs mx-auto my-2 px-2"
       >
         <p className="font-handwriting text-xl sm:text-2xl text-[#801B3C] leading-snug mb-3">
-          Menjadi sebuah kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan
+          Menjadi sebuah kebahagiaan bagi kami apabila Bapa/Ibu/Saudara/i berkenan
           hadir dalam hari bahagia kami. Terimakasih atas segala ucapan, doa, dan
           perhatian yang diberikan.
         </p>
