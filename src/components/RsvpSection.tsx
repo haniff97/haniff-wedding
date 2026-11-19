@@ -100,7 +100,7 @@ export default function RsvpSection({ defaultGuestName }: { defaultGuestName?: s
   return (
     <section id="rsvp" className="py-12 px-6 sm:px-8 max-w-md mx-auto text-center flex flex-col items-center select-none">
       <h2 className="font-handwriting text-5xl md:text-6xl font-bold text-[#A62053] mb-2">
-        RSVP &amp; Ucapan
+        Pengesahan Kehadiran &amp; Ucapan
       </h2>
       <p className="font-handwriting text-xl text-[#801B3C] mb-8">
         Sila sahkan kehadiran anda sebelum 10 Januari 2027
@@ -117,7 +117,7 @@ export default function RsvpSection({ defaultGuestName }: { defaultGuestName?: s
               Terima Kasih!
             </h3>
             <p className="text-sm text-[#801B3C] mb-6 max-w-xs">
-              Pengesahan kehadiran dan ucapan anda telah berjaya disimpan ke dalam rekod RSVP. Kami tidak sabar untuk meraikan hari bahagia bersama anda!
+              Pengesahan kehadiran dan ucapan anda telah berjaya disimpan. Kami amat berbesar hati menantikan kehadiran anda ke Majlis Kesyukuran ini!
             </p>
             <button
               onClick={() => setIsSubmitted(false)}
@@ -184,7 +184,7 @@ export default function RsvpSection({ defaultGuestName }: { defaultGuestName?: s
             {status === "Hadir" && (
               <div>
                 <label className="block text-xs font-semibold uppercase tracking-wider text-[#801B3C] mb-2">
-                  Jumlah Kehadiran (Pax)
+                  Jumlah Kehadiran (Bilangan Tetamu)
                 </label>
                 <div className="flex items-center gap-2">
                   {[1, 2, 3, 4, 5].map((num) => (
@@ -208,7 +208,7 @@ export default function RsvpSection({ defaultGuestName }: { defaultGuestName?: s
             {/* Wishes / Ucapan */}
             <div>
               <label className="block text-xs font-semibold uppercase tracking-wider text-[#801B3C] mb-1.5">
-                Ucapan &amp; Doa Buat Pengantin
+                Ucapan &amp; Doa Buat Mempelai
               </label>
               <textarea
                 rows={3}
@@ -226,7 +226,7 @@ export default function RsvpSection({ defaultGuestName }: { defaultGuestName?: s
               className="w-full inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded-2xl bg-[#A62053] text-white font-medium shadow-md hover:bg-[#8e1945] active:scale-95 transition-all text-sm disabled:opacity-50"
             >
               <Send className="w-4 h-4" />
-              <span>{isSubmitting ? "Menghantar..." : "Hantar RSVP & Ucapan"}</span>
+              <span>{isSubmitting ? "Menghantar..." : "Hantar Pengesahan & Ucapan"}</span>
             </button>
           </form>
         )}

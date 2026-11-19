@@ -51,7 +51,7 @@ export default function HeroDetails() {
         transition={{ duration: 0.9, delay: 0.2, ease: "easeOut" }}
         className="relative z-10 flex flex-col items-center justify-center text-center my-auto px-4 select-none"
       >
-        {/* "The wedding of" (Curved vector text path) */}
+        {/* "Majlis Kesyukuran" (Curved vector text path) */}
         <div className="w-full max-w-[250px] h-[46px] flex items-center justify-center mb-2">
           <svg viewBox="0 0 250 46" className="w-full h-full overflow-visible">
             <path
@@ -60,11 +60,11 @@ export default function HeroDetails() {
               fill="none"
             />
             <text
-              className="fill-[#A62053] font-handwriting text-[27px] font-bold tracking-wider"
+              className="fill-[#A62053] font-handwriting text-[25px] font-bold tracking-wider"
               style={{ fontFamily: "'Caveat', cursive" }}
             >
               <textPath href="#heroWeddingCurve" startOffset="50%" textAnchor="middle">
-                The wedding of
+                Majlis Kesyukuran
               </textPath>
             </text>
           </svg>
@@ -101,7 +101,7 @@ export default function HeroDetails() {
           </motion.h1>
         </div>
 
-        {/* Date: "Date, 24 Jan 2027" */}
+        {/* Date: "Ahad, 24 Januari 2027" */}
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -109,7 +109,7 @@ export default function HeroDetails() {
           className="font-handwriting text-2xl sm:text-3xl font-bold text-[#A62053] tracking-wide mt-6 mb-2"
           style={{ fontFamily: "'Caveat', cursive" }}
         >
-          Date, 24 Jan 2027
+          Ahad, 24 Januari 2027
         </motion.p>
       </motion.div>
 

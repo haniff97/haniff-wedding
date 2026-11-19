@@ -10,8 +10,8 @@ interface NavDot {
 
 const navDots: NavDot[] = [
   { id: "hero", label: "Mempelai" },
-  { id: "event", label: "Resepsi" },
-  { id: "rsvp", label: "RSVP" },
+  { id: "event", label: "Majlis" },
+  { id: "rsvp", label: "Kehadiran" },
 ];
 
 export default function ScrollIndicator() {

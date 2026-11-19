@@ -111,13 +111,13 @@ export default function ClosingSection() {
         className="relative z-10 max-w-xs mx-auto my-2 px-2"
       >
         <p className="font-handwriting text-xl sm:text-2xl text-[#801B3C] leading-snug mb-3">
-          Menjadi sebuah kebahagiaan bagi kami apabila Bapa/Ibu/Saudara/i berkenan
-          hadir dalam hari bahagia kami. Terimakasih atas segala ucapan, doa, dan
-          perhatian yang diberikan.
+          Merupakan suatu penghormatan dan kebahagiaan bagi kami sekiranya Bapa/Ibu/Saudara/i
+          berkenan hadir ke majlis kami. Terima kasih atas segala ucapan, doa, dan
+          restu yang diberikan.
         </p>
 
         <p className="font-handwriting text-xl sm:text-2xl font-bold text-[#A62053]">
-          Sampai jumpa di hari pernikahan kami!
+          Semoga kehadiran anda memeriahkan lagi Majlis Kesyukuran kami!
         </p>
       </motion.div>
 

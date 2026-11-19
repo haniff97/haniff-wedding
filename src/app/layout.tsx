@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "The Wedding of Haniff & Hanini #HaniNeedAHaniff",
-  description: "Walimatulurus / Majlis Bertandang Haniff & Hanini - Ahad, 24 Januari 2027",
+  title: "Majlis Kesyukuran Haniff & Hanini #HaniNeedAHaniff",
+  description: "Majlis Kesyukuran Haniff & Hanini - Ahad, 24 Januari 2027",
   openGraph: {
-    title: "Walimatulurus Haniff & Hanini",
-    description: "Undangan Majlis Perkahwinan - Ahad, 24 Januari 2027 | Kota Bharu, Kelantan",
-    images: ["/images/cover_couple.png"],
+    title: "Majlis Kesyukuran Haniff & Hanini",
+    description: "Undangan Majlis Kesyukuran - Ahad, 24 Januari 2027 | Kota Bharu, Kelantan",
+    images: ["/images/cover_couple.webp"],
   },
 };
 

@@ -13,9 +13,9 @@ export default function EventDetails() {
 
   const handleAddToCalendar = () => {
     // Generate Google Calendar Event Link
-    const title = encodeURIComponent("Walimatulurus / Majlis Resepsi Haniff & Hanini");
+    const title = encodeURIComponent("Majlis Kesyukuran Haniff & Hanini");
     const details = encodeURIComponent(
-      "Majlis Perkahwinan Haniff & Hanini #HaniNeedAHaniff\nLokasi: " + address
+      "Majlis Kesyukuran Haniff & Hanini #HaniNeedAHaniff\nLokasi: " + address
     );
     const location = encodeURIComponent(address);
     // 24 Jan 2027 10:00 to 16:00 MYT (UTC+8) -> 20270124T020000Z to 20270124T080000Z
@@ -47,7 +47,7 @@ export default function EventDetails() {
       </motion.div>
 
       <h2 className="font-handwriting text-5xl md:text-6xl font-bold text-[#A62053] mb-4">
-        Resepsi
+        Majlis Kesyukuran
       </h2>
 
       <p className="font-handwriting text-2xl font-bold text-[#801B3C] mb-1">

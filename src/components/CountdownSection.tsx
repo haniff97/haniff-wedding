@@ -42,7 +42,7 @@ export default function CountdownSection() {
       className="py-12 px-6 sm:px-8 max-w-md mx-auto text-center flex flex-col items-center select-none"
     >
       <h2 className="font-handwriting text-5xl md:text-6xl font-bold text-[#A62053] mb-4">
-        Save the Date
+        Simpan Tarikh
       </h2>
 
       {/* Calendar Graphic with subtle gentle sway */}
@@ -84,7 +84,7 @@ export default function CountdownSection() {
       </motion.div>
 
       <p className="font-handwriting text-2xl font-bold text-[#A62053] mb-8">
-        Day, 24 01 2027
+        Ahad, 24 Januari 2027
       </p>
 
       {/* Live Countdown Grid with staggered card pop-in */}

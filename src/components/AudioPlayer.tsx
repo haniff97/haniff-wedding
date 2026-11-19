@@ -41,12 +41,12 @@ export default function AudioPlayer({
             {isPlaying ? (
               <>
                 <Volume2 className="w-4 h-4 animate-pulse" />
-                <span>Pause music</span>
+                <span>Hentikan Muzik</span>
               </>
             ) : (
               <>
                 <Music className="w-4 h-4" />
-                <span>Click to listen the song..</span>
+                <span>Klik untuk mainkan lagu..</span>
               </>
             )}
           </button>
@@ -57,7 +57,7 @@ export default function AudioPlayer({
       <div className="fixed bottom-6 right-5 z-40">
         <button
           onClick={onTogglePlay}
-          title={isPlaying ? "Mute music" : "Play music"}
+          title={isPlaying ? "Senyapkan muzik" : "Mainkan muzik"}
           className={`p-3.5 rounded-full shadow-xl transition-all duration-300 flex items-center justify-center ${
             isPlaying
               ? "bg-[#A62053] text-white animate-pulse"

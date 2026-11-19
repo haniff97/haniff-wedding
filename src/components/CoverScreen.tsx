@@ -150,7 +150,7 @@ export default function CoverScreen({
                 style={{ height: "clamp(60px, 11vh, 95px)" }}
               />
 
-              {/* 2. "The wedding of" (Curved vector text path, no PNG background) */}
+              {/* 2. "Majlis Kesyukuran" (Curved vector text path, no PNG background) */}
               <div className="w-full max-w-[270px] h-[48px] flex items-center justify-center select-none my-0.5">
                 <svg viewBox="0 0 270 48" className="w-full h-full overflow-visible">
                   <path
@@ -159,11 +159,11 @@ export default function CoverScreen({
                     fill="none"
                   />
                   <text
-                    className="fill-[#A62053] font-handwriting text-[27px] font-bold tracking-wider"
+                    className="fill-[#A62053] font-handwriting text-[25px] font-bold tracking-wider"
                     style={{ fontFamily: "'Caveat', cursive" }}
                   >
                     <textPath href="#weddingCurve" startOffset="50%" textAnchor="middle">
-                      The wedding of
+                      Majlis Kesyukuran
                     </textPath>
                   </text>
                 </svg>
@@ -233,7 +233,7 @@ export default function CoverScreen({
                 style={{ fontFamily: "'Caveat', cursive" }}
               >
                 <Mail className="w-5 h-5 stroke-[2.2]" />
-                <span>Open Invitation</span>
+                <span>Buka Jemputan</span>
               </button>
 
             </div>

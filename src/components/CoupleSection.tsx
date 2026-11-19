@@ -15,11 +15,11 @@ export default function CoupleSection() {
         transition={{ duration: 0.7 }}
         className="font-handwriting text-xl text-[#801B3C] leading-snug px-4 mb-10"
       >
-        Dengan memohon rahmat &amp; ridho Allah SWT, kami mengundang
-        bapa/ibu/saudara/i untuk hadir pada pernikahan:
+        Dengan memohon rahmat dan keberkatan Allah SWT, kami menjemput
+        bapa/ibu/saudara/i ke Majlis Kesyukuran:
       </motion.p>
 
-      {/* Groom & Bride Title */}
+      {/* Mempelai Title */}
       <motion.h2
         initial={{ opacity: 0, scale: 0.9 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -27,7 +27,7 @@ export default function CoupleSection() {
         transition={{ duration: 0.6 }}
         className="font-handwriting text-4xl md:text-5xl font-bold text-[#A62053] mb-8"
       >
-        Groom &amp; Bride
+        Pasangan Mempelai
       </motion.h2>
 
       {/* Groom Profile */}
@@ -45,7 +45,7 @@ export default function CoupleSection() {
         >
           <Image
             src="/images/groom.webp"
-            alt="Groom Haniff"
+            alt="Pengantin Lelaki Haniff"
             fill
             className="object-contain"
           />
@@ -88,7 +88,7 @@ export default function CoupleSection() {
         >
           <Image
             src="/images/bride.webp"
-            alt="Bride Hanini"
+            alt="Pengantin Perempuan Hanini"
             fill
             className="object-contain"
           />

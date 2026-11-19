@@ -18,7 +18,7 @@ export default function PhotoGallery() {
     >
       <div className="flex items-center gap-2 mb-8">
         <h2 className="font-handwriting text-5xl md:text-6xl font-bold text-[#A62053]">
-          Gallery
+          Galeri
         </h2>
         <motion.div
           animate={{ rotate: [0, 15, -15, 0] }}
@@ -37,7 +37,7 @@ export default function PhotoGallery() {
       >
         <Image
           src="/images/gallery_full.webp"
-          alt="Haniff & Hanini Photo Gallery"
+          alt="Galeri Foto Haniff & Hanini"
           fill
           className="object-contain transition-transform duration-500 group-hover:scale-[1.02]"
         />
