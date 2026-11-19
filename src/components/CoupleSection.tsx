@@ -51,7 +51,7 @@ export default function CoupleSection() {
           />
         </motion.div>
         <h3 className="font-handwriting text-5xl font-bold text-[#A62053] mb-2">
-          Haniff
+          Muhammad Haniff
         </h3>
         <p className="font-handwriting text-2xl font-bold text-[#801B3C] leading-snug">
           Bapa (Hamdan bin Mohd Nawawi)
@@ -94,7 +94,7 @@ export default function CoupleSection() {
           />
         </motion.div>
         <h3 className="font-handwriting text-5xl font-bold text-[#A62053] mb-2">
-          Hanini
+          Marisya Hanini
         </h3>
         <p className="font-handwriting text-2xl font-bold text-[#801B3C] leading-snug">
           Bapa (Hasnan bin Abd Hamid)

@@ -42,7 +42,7 @@ export default function CountdownSection() {
       className="py-12 px-6 sm:px-8 max-w-md mx-auto text-center flex flex-col items-center select-none"
     >
       <h2 className="font-handwriting text-5xl md:text-6xl font-bold text-[#A62053] mb-4">
-        save the Date
+        Save the Date
       </h2>
 
       {/* Calendar Graphic with subtle gentle sway */}
@@ -67,10 +67,20 @@ export default function CountdownSection() {
           {/* Card outline */}
           <rect x="15" y="16" width="70" height="80" rx="12" />
           <line x1="15" y1="36" x2="85" y2="36" strokeDasharray="2 3" />
+
+          {/* Centered Date '24' */}
+          <text
+            x="50"
+            y="67"
+            textAnchor="middle"
+            dominantBaseline="central"
+            stroke="none"
+            className="fill-[#A62053] font-handwriting font-bold"
+            style={{ fontSize: "40px", fontFamily: "'Caveat', cursive" }}
+          >
+            24
+          </text>
         </svg>
-        <span className="absolute top-11 font-handwriting text-3xl font-bold text-[#A62053]">
-          24
-        </span>
       </motion.div>
 
       <p className="font-handwriting text-2xl font-bold text-[#A62053] mb-8">

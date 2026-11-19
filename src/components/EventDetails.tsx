@@ -8,7 +8,7 @@ import { MapPin, CalendarPlus } from "lucide-react";
 export default function EventDetails() {
   const address =
     "Dewan Peladang Panji, Jalan Sri Panji, Kampung Belukar Lanjut Kumumin, 16100 Kota Bharu, Kelantan";
-  
+
   const googleMapsUrl = "https://maps.app.goo.gl/21Hj2GE5knw1Ym5KA";
 
   const handleAddToCalendar = () => {
@@ -54,7 +54,7 @@ export default function EventDetails() {
         Ahad, 24 Januari 2027
       </p>
       <p className="font-handwriting text-xl text-[#801B3C] font-semibold mb-6">
-        10.00 Pagi &ndash; 4.00 Petang
+        12.00 Tghari &ndash; 5.00 Petang
       </p>
 
       {/* Address Card */}
@@ -65,7 +65,7 @@ export default function EventDetails() {
       >
         <MapPin className="w-6 h-6 text-[#A62053] mx-auto mb-2" />
         <p className="font-handwriting text-2xl text-[#801B3C] leading-snug">
-          Dewan Peladang Panji, Jalan Sri Panji, Kampung Belukar Lanjut Kumumin,
+          Dewan Peladang Panji, Jalan Sri Panji, Kampung Belukar Lanjut Kemumin,
           16100 Kota Bharu, Kelantan
         </p>
       </motion.div>
